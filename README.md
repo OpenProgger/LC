@@ -5,7 +5,7 @@ Supports only single char symbols, except 'l' which stands for a lambda function
 
 Compile Compiler:  
 ```
-cc -nostartfiles -nodefaultlibs -static compiler.c -o LC
+clang -static compiler.c -o LC
 ```
 If interested, bootstrap.S is a assembly-version of compiler.c
 
