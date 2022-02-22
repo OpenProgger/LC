@@ -20,3 +20,4 @@ clang -nostartfiles -nodefaultlibs -masm=intel -static output.S runtime.S
 ```
 
 The sample input file is copied from [Matt's Blog](https://matt.might.net/articles/compiling-up-to-lambda-calculus/) for testing.
+Use a debugger to test the result of the 'app' function if it returns 120 (which means the lambda was compiled correctly).
